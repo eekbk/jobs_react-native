@@ -31,6 +31,7 @@ const Welcome = () => {
             style={styles.searchInput}
             value=""
             onChange={() => {}}
+            multiline
           />
         </View>
         <TouchableOpacity style={styles.searchBtn} onPress={() => {}}>
