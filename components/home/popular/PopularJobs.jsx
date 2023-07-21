@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState, useEffect } from 'react'
 import { View, Text, TouchableOpacity, FlatList, ActivityIndicator } from 'react-native'
 import { useRouter } from 'expo-router'
 
@@ -14,8 +14,6 @@ const PopularJobs = () => {
       query: 'React developer',
       num_pages: 1
     })
-
-  // console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n$$$$$$$$$$$$$$$$$$$$$$$$$\n", data, "\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 
   return (
     <View style={styles.container}>
